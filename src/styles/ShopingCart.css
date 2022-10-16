@@ -1,0 +1,19 @@
+.cart-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.cart-card{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(2, 2, 8);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
