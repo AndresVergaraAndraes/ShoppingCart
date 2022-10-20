@@ -1,0 +1,28 @@
+.modal {
+  background-color: rgba(6, 6, 6, 0.85);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  position: relative;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal.is-open {
+  display: flex;
+}

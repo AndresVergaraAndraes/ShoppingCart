@@ -1,0 +1,93 @@
+.form-register {
+  width: 300px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  padding: 10px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.form-register span {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.controls {
+  width: 100%;
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #363636;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #303131;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.card-container-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card-form {
+  font-size: 10px;
+  height: 270px;
+  width: 230px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(2, 2, 8);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.title-edit {
+  position: relative;
+  bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.image-container {
+  position: relative;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img {
+  margin-bottom: 10px;
+}
+
+.precio-container {
+  position: relative;
+  bottom: 20px;
+}
