@@ -2,16 +2,17 @@ import React, { useContext, useState } from "react";
 import { productContext } from "../context/ProductProvider";
 import { types } from "../types";
 import "../styles/Form.css";
-const Form = () => {
+const Form = ({closeModal}) => {
   const { dispatch } = useContext(productContext);
 
-  const [id, setId] = useState(0);
-  const [precio, setPrecio] = useState(0);
+  const [id, setId] = useState("");
+  const [precio, setPrecio] = useState("");
   const [title, setTitle] = useState("");
   const [image, setImage] = useState("");
 
   const handleAddNewProduct = (e) => {
     e.preventDefault();
+    closeModal()
     dispatch({
       type: types.addNewProduct,
       payload: {
@@ -55,7 +56,7 @@ const Form = () => {
           value={image}
           onChange={(e) => setImage(e.target.value)}
         />
-        <button className="botons" type="submit">
+        <button className="botons" type="submit" >
           Agregar producto
         </button>
       </form>

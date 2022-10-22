@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { productContext } from "../context/ProductProvider";
+import { types } from "../types";
 
 const ModifyProduct = () => {
   const { products, dispatch } = useContext(productContext);

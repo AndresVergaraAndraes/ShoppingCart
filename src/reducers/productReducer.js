@@ -59,7 +59,9 @@ const ProductReducer = (state, action) => {
             }
 
         case types.removeAllProducts:
-            return initialProductState;
+            return {
+                ...state,...state.cart =[]
+            }
 
 
         case types.addNewProduct:

@@ -17,7 +17,7 @@ const ProductCard = ({ openModalCart, openModalForm }) => {
             <div className="product-card" key={product.id}>
               <h3>{product.title} </h3>
               <img src={product.thumbnailUrl} alt="" />
-              <p>Precio: {product.precio} </p>
+              <p>Precio: {product.precio}$ </p>
               <button
                 className="add-product-cart"
                 onClick={() => {
