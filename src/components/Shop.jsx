@@ -39,7 +39,7 @@ const Shop = () => {
           <BrowserRouter>
               <NavBar/>
               <Routes>
-                    <Route path='/' element={<Products/>} />
+                    <Route path='/ShoppingCart' element={<Products/>} />
                     <Route path='cart' element={<ShoppingCart/>} />
                     <Route path='form' element={<ModifyProduct/>} />
               </Routes>
