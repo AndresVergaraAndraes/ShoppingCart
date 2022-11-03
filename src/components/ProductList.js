@@ -27,7 +27,7 @@ const products = [
     "precio": 50,
     "id": 4,
     "title": "Sandía",
-    "thumbnailUrl": "https://oasisfm.cl/oasisfm/site/artic/20160114/imag/foto_0000000320160114121955.jpg",
+    "thumbnailUrl": "https://lanoticia.com/wp-content/uploads/2020/08/5-razones-para-comer-sandia-todos-los-dias.jpg",
     "CategoryId": "2"
     },
     {
